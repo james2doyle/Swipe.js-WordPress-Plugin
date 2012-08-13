@@ -7,7 +7,7 @@ Installation
 ------------
 
 ### Creating Slides
-Install the plugin as usual. You will see a new custom post option type called SwipeJS. Create a new post. Give it a title and a featured image. Done. All the posts are in ascending order. This means that the newest slide will appear as the last image.
+Install the plugin as usual. You will see a new custom post option type called SwipeJS. Create a new post in this section. Give it a title and a featured image. All the posts are in ascending order. This means that the newest post will appear as the last image.
 
 ### Options
 You will see a new SwipeJS option in your settings menu. In here you will find all the settings for the slider. All the options are the same as the original swipe.js slider.
