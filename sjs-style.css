@@ -1,0 +1,93 @@
+#sjs-slider {
+
+}
+
+#sjs-pagination {
+	position: relative;
+	left: 50%;
+	width: 200px;
+	text-align: center;
+	margin-left: -100px;
+}
+
+#sjs-pagination a {
+	display: inline-block;
+	font-size: 0;
+	width: 12px;
+	height: 12px;
+	margin-right: 5px;
+	border-radius: 7px;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.8);
+	background: #666;
+	text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#sjs-pagination a:hover, #sjs-pagination a.current {
+	background: #222;
+}
+
+#sjs-controls {
+	position: relative;
+	top: -300px;
+}
+
+#sjs-controls a.sjs-prev,#sjs-controls a.sjs-next {
+	display: block;
+	position: relative;
+	padding: 4px 9px;
+	width: 12px;
+	color: white;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 20px;
+	border: 1px solid #000;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.8);
+	border-radius: 18px;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 1px rgba(0,0,0,0.3);
+	background: #333;
+}
+
+#sjs-controls a.sjs-prev {
+	left: 2%;
+}
+
+#sjs-controls a.sjs-next {
+	left: 90%;
+	top: -32px;
+}
+
+#sjs-controls a.sjs-prev:hover,
+#sjs-controls a.sjs-next:hover {
+	border: 1px solid #222;
+	background: #444;
+}
+
+#sjs-controls a.sjs-prev:active,
+#sjs-controls a.sjs-next:active {
+	border: 1px solid #000;
+	color: #111;
+	text-shadow: 0 -1px 0 rgba(0,0,0,1);
+	box-shadow: none;
+	background: #222;
+}
+
+/*Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 480px) and (max-width : 480px) {
+	#sjs-controls {
+		display: none;
+	}
+}
+/* iPads (landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
+	#sjs-controls {
+		display: none;
+	}
+}
+/* iPads (portrait) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+	#sjs-controls {
+		display: none;
+	}
+}
