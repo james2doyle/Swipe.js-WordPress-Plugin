@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: SwipeJS
-Plugin URI: http://ohdoylerules.com/swipejs/
+Plugin URI: http://ohdoylerules.com/swipejs/ or https://github.com/james2doyle/Swipe.js-WordPress-Plugin
 Description: WordPress plugin for swipe.js: the no-dependency, responsive, 1:1 touch-capable slider built by Brad Birdsall.
 Version: 1.0
 Author: James Doyle
